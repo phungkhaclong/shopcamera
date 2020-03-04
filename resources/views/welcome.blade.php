@@ -10,15 +10,16 @@
 		<link rel="stylesheet" type="text/css" href="{{asset('css/fontawesome.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/brands.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/solid.css') }}">
-		<link rel="stylesheet" type="text/css" href="{{ asset('css/all.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/custom.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ asset('css/regular.min.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ asset('css/all.css') }}">
 	</head>
 	<body>
 		<div class="container">
 			<div class="top row bg-light" >
 				<div class="col-md-3">
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					  <a class="navbar-brand" href="#"><img src="images/mixi.png" style="width: 50%;height: 50%;"></a>
+					  <a class="navbar-brand" href="#"><img src="{{ asset('images/home/mixi.png') }}" style="width: 50%;height: 50%;"></a>
 						 </div> 
 							<div class="col-md-5">
 							    <form class="form-inline my-2 my-lg-0 search d-flex">
@@ -35,10 +36,10 @@
 							  <div class="p-2 flex-fill bd-highlight">
 							  	<div class="d-flex bd-highlight">
 								  <div class="p-2 flex-fill bd-highlight">
-								  	<i class="fad fa-users"></i>
+								  	<i class="fas fa-user"></i>
 								  </div>
 								  <div class="p-2 flex-fill bd-highlight">
-								  	<i class="fal fa-shopping-bag"></i>
+								  	<i class="far fa-truck-monster"></i>
 								  </div>
 								</div>
 							  </div>
@@ -86,13 +87,13 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img src="images/banner1.jpg" style="height: 450px;" class="d-block w-100" alt="First">
+			      <img src="{{ asset('images/home/banner1.jpg') }}" style="height: 450px;" class="d-block w-100" alt="First">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="images/banner2.jpg" style="height: 450px;" class="d-block w-100" alt="Second">
+			      <img src="{{ asset('images/home/banner2.jpg') }}" style="height: 450px;" class="d-block w-100" alt="Second">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="images/banner3.jpg" style="height: 450px;" class="d-block w-100" alt="Third">
+			      <img src="{{ asset('images/home/banner3.jpg') }}" style="height: 450px;" class="d-block w-100" alt="Third">
 			    </div>
 			  </div>
 			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -123,7 +124,7 @@
 					      <div class="row camera1 ">
 					      	<div class="col-md-3   ">
 					      		<div class="card" style="width: 13rem;">
-								  <img src="images/2.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/12.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">CAMERA có dây</h5>
 								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
