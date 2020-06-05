@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Title Page</title>
+		<title>Camera</title>
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="{{asset('css/fontawesome.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/brands.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/solid.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/custom.css') }}">
-		<link rel="stylesheet" type="text/css" href="{{ asset('css/regular.min.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ asset('css/regular.min.css')}}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/all.css') }}">
 	</head>
 	<body>
@@ -19,7 +19,9 @@
 			<div class="top row bg-light" >
 				<div class="col-md-3">
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					  <a class="navbar-brand" href="#"><img src="{{ asset('images/home/mixi.png') }}" style="width: 50%;height: 50%;"></a>
+					  <a class="navbar-brand" href="#">
+					  	<img src="{{ asset('images/home/mixi.png') }}" style="width: 40%;height: 40%;">
+					  </a>
 						 </div> 
 							<div class="col-md-5">
 							    <form class="form-inline my-2 my-lg-0 search d-flex">
@@ -135,7 +137,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 13rem;">
-								  <img src="images/12.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/3.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">CAMERA có dây</h5>
 								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
@@ -146,7 +148,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 13rem;">
-								  <img src="images/3.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">CAMERA có dây</h5>
 								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
@@ -157,56 +159,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 13rem;">
-								  <img src="images/4.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">CAMERA có dây</h5>
-								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      </div>
-					    </div>
-
-					    <div class="carousel-item">
-					       <div class="row camera1">
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 13rem;">
-								  <img src="images/5.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">CAMERA có dây</h5>
-								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 13rem;">
-								  <img src="images/6.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">CAMERA có dây</h5>
-								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 13rem;">
-								  <img src="images/7.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">CAMERA có dây</h5>
-								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 13rem;">
-								  <img src="images/9.jpg"  style="height: 200px;" class="card-img-top">
+								  <img src="{{ asset('images/home/5.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">CAMERA có dây</h5>
 								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
@@ -222,7 +175,7 @@
 					       <div class="row camera1">
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 13rem;">
-								  <img src="images/11.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">CAMERA có dây</h5>
 								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
@@ -233,7 +186,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 13rem;">
-								  <img src="images/12.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">CAMERA có dây</h5>
 								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
@@ -244,7 +197,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 13rem;">
-								  <img src="images/13.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">CAMERA có dây</h5>
 								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
@@ -255,7 +208,56 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 13rem;">
-								  <img src="images/14.jpg" style="height: 200px;" class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}"  style="height: 200px;" class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">CAMERA có dây</h5>
+								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      </div>
+					    </div>
+
+					    <div class="carousel-item">
+					       <div class="row camera1">
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 13rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">CAMERA có dây</h5>
+								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 13rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">CAMERA có dây</h5>
+								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 13rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">CAMERA có dây</h5>
+								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 13rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;" class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">CAMERA có dây</h5>
 								    <p class="card-text">Camera ngoài trời không dây Reolink RLC-410W</p>
@@ -284,7 +286,7 @@
 					      <div class="row camera1 ">
 					      	<div class="col-md-3 border-danger border-3 ">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/16.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">CAMERA có dây</h5>
 								    <p class="card-text">camera số 16</p>
@@ -295,7 +297,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/18.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -306,7 +308,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/17.png" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -317,56 +319,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/18.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">camera số 16</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      </div>
-					    </div>
-
-					    <div class="carousel-item">
-					       <div class="row camera1">
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 15rem;">
-								  <img src="images/21.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">camera số 16</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 15rem;">
-								  <img src="images/20.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">camera số 16</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 15rem;">
-								  <img src="images/4.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">camera số 16</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 15rem;">
-								  <img src="images/5.jpg"  style="height: 200px;" class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -382,7 +335,7 @@
 					       <div class="row camera1">
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/6.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -393,7 +346,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/7.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -404,7 +357,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/8.png" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -415,7 +368,56 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/9.jpg" style="height: 200px;" class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}"  style="height: 200px;" class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">Card title</h5>
+								    <p class="card-text">camera số 16</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      </div>
+					    </div>
+
+					    <div class="carousel-item">
+					       <div class="row camera1">
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 15rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">Card title</h5>
+								    <p class="card-text">camera số 16</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 15rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">Card title</h5>
+								    <p class="card-text">camera số 16</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 15rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">Card title</h5>
+								    <p class="card-text">camera số 16</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 15rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;" class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -451,7 +453,7 @@
 					      <div class="row camera1 ">
 					      	<div class="col-md-3 border-danger border-3 ">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/10.png" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -462,7 +464,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/11.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -473,7 +475,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/12.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -484,56 +486,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/13.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">camera số 16</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      </div>
-					    </div>
-
-					    <div class="carousel-item">
-					       <div class="row camera1">
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 15rem;">
-								  <img src="images/14.jpg" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">camera số 16</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 15rem;">
-								  <img src="images/15.png" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">camera số 16</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 15rem;">
-								  <img src="images/17.png" style="height: 200px;"  class="card-img-top">
-								  <div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">camera số 16</p>
-								    <a href="#" class="btn btn-primary">xem</a>
-								    <a href="#" class="btn btn-danger">mua</a>
-								  </div>
-								</div>
-					      	</div>
-					      	<div class="col-md-3">
-					      		<div class="card" style="width: 15rem;">
-								  <img src="images/14.jpg"  style="height: 200px;" class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -549,7 +502,7 @@
 					       <div class="row camera1">
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/11.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -560,7 +513,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/4.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -571,7 +524,7 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/5.jpg" style="height: 200px;"  class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -582,7 +535,56 @@
 					      	</div>
 					      	<div class="col-md-3">
 					      		<div class="card" style="width: 15rem;">
-								  <img src="images/6.jpg" style="height: 200px;" class="card-img-top">
+								  <img src="{{ asset('images/home/4.jpg') }}"  style="height: 200px;" class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">Card title</h5>
+								    <p class="card-text">camera số 16</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      </div>
+					    </div>
+
+					    <div class="carousel-item">
+					       <div class="row camera1">
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 15rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">Card title</h5>
+								    <p class="card-text">camera số 16</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 15rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">Card title</h5>
+								    <p class="card-text">camera số 16</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 15rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;"  class="card-img-top">
+								  <div class="card-body">
+								    <h5 class="card-title">Card title</h5>
+								    <p class="card-text">camera số 16</p>
+								    <a href="#" class="btn btn-primary">xem</a>
+								    <a href="#" class="btn btn-danger">mua</a>
+								  </div>
+								</div>
+					      	</div>
+					      	<div class="col-md-3">
+					      		<div class="card" style="width: 15rem;">
+								  <img src="{{ asset('images/home/4.jpg') }}" style="height: 200px;" class="card-img-top">
 								  <div class="card-body">
 								    <h5 class="card-title">Card title</h5>
 								    <p class="card-text">camera số 16</p>
@@ -614,7 +616,7 @@
 					<div class="col-lg-3">
 						<div class="logo-footer">
 							<a href="#">
-								<img src="images/logo1.png" style="margin-left: 0px;width: 200px;height: 100px;margin-top: 20px;">
+								<img src="{{ asset('images/home/mixi.png') }}" style="margin-left: 0px;width: 200px;height: 100px;margin-top: 20px;">
 							</a>
 						</div>
 						<div class="">
